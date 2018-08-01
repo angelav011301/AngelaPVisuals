@@ -1,0 +1,88 @@
+
+
+/* GRID */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 10px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+/*  */
+
+
+#idHomePage {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  color: black;
+  font-size : 50px;
+  font-weight: bold;
+  border-bottom-style: solid;
+}
+
+#idBio
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  color: black;
+  font-size : 35px;
+  font-weight: bold;
+}
+
+
+#idFunFacts {
+font-family: "Lucida Console", Monaco, monospace;
+color: black;
+font-size : 35px;
+font-weight: bold;
+}
+
+#idContact {
+  font-family: "Lucida Console", Monaco, monospace;
+  color: black;
+  font-size : 35px;
+  font-weight: bold;
+}
+
+#idBioPar {
+  font-family: "Courier New", Courier, monospace;
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  border: 2px solid #7A9D96;
+  border-radius: 12px;
+}
+body {
+background-color: #f2f2f2;
+}
+#myDIV {
+  display:none;
+}
