@@ -1,3 +1,38 @@
+/* Logo
+.logo{
+  text-indent: -999999px;
+  background: url('APVCircle.png');
+  width: 100px;
+  height: 100px;
+}
+
+*/
+/* NAVIGATION BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7A9D96;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+        float APVCircle.png: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #CAE4D8;
+}
 
 
 /* GRID */
@@ -41,15 +76,17 @@
 
 
 #idHomePage {
+  border-bottom-style: solid;
+  border-bottom-color: #03003F;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: center;
   color: black;
   font-size : 50px;
   font-weight: bold;
-  border-bottom-style: solid;
 }
 
-#idBio
+#idBio {
+  text-decoration: underline;
   font-family: "Lucida Console", Monaco, monospace;
   text-align: center;
   color: black;
@@ -57,12 +94,15 @@
   font-weight: bold;
 }
 
+#myDIV {
+  display: none;
+}
 
 #idFunFacts {
-font-family: "Lucida Console", Monaco, monospace;
-color: black;
-font-size : 35px;
-font-weight: bold;
+  font-family: "Lucida Console", Monaco, monospace;
+  color: black;
+  font-size : 35px;
+  font-weight: bold;
 }
 
 #idContact {
@@ -70,9 +110,64 @@ font-weight: bold;
   color: black;
   font-size : 35px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
-#idBioPar {
+
+  /* Container holding the image and the text */
+.BackgroundGrid {
+      position: relative;
+      text-align: center;
+      color: Black;
+      font-family: "Courier New", Courier, monospace;
+      font-size: 25px;
+  }
+
+
+  /* Bottom left text */
+  .bottom-left {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+  }
+
+  /* Top left text */
+  .top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+  }
+
+  /* Top right text */
+  .top-right {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+  }
+
+  /* Bottom right text */
+  .bottom-right {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+  }
+
+  /* Centered text */
+  .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+}
+
+.BackgroundGrid {
+  font-family: "Courier New", Courier, monospace;
+  color:black;
+  font-size: 25px;
+}
+
+#idContactFormat {
   font-family: "Courier New", Courier, monospace;
   color:black;
   font-size: 25px;
@@ -80,9 +175,8 @@ font-weight: bold;
   border: 2px solid #7A9D96;
   border-radius: 12px;
 }
+
+
 body {
 background-color: #f2f2f2;
-}
-#myDIV {
-  display:none;
 }

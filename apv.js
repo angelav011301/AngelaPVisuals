@@ -1,4 +1,4 @@
-var slideIndex = 1;
+//var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -27,16 +27,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
-}
-
-
-
-
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+//
 }
