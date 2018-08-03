@@ -1,0 +1,116 @@
+<html>
+  <head>
+
+      <link rel="stylesheet" href = "apv-styles.css">
+
+  </head>
+  <!-- NAVIGATION BAR -->
+  <ul>
+    <div>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="map.html">Map</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+  </div>
+  <div>
+  <img id= "idCircleLogo" src="APVCircle.png"style="width:7%" alt="" >
+
+  </div>
+  </ul>
+
+  <!-- BODY STARTS -->
+<body>
+
+  <h2>PORTFOLIO</h2>
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('Nature')"> Nature</button>
+    <button class="btn" onclick="filterSelection('Landscape')"> Landscape</button>
+    <button class="btn" onclick="filterSelection('Portriats')"> Portriats</button>
+    <button class="btn" onclick="filterSelection('Street')"> Street</button>
+  </div>
+
+
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+    <div class="column Nature">
+      <div class="content">
+        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+        <h4>Mountains</h4>
+        <p>LNATURE 1.</p>
+      </div>
+    </div>
+    <div class="column Nature">
+      <div class="content">
+        <img src="/w3images/lights.jpg" alt="Portriats" style="width:100%">
+        <h4>Lights</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+    <div class="column Nature">
+      <div class="content">
+        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+        <h4>Forest</h4>
+        <p>Lorem ipsum dolor..</p>
+      </div>
+    </div>
+
+
+
+    <div class="column Landscape">
+      <div class="content">
+        <img src="/w3images/cars1.jpg" alt="Landscape" style="width:100%">
+        <h4>Retro</h4>
+        <p>LAD 2.</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="column Portriats">
+      <div class="content">
+        <img src="/w3images/people1.jpg" alt="Portriats" style="width:100%">
+        <h4>Girl</h4>
+        <p>PORT .</p>
+      </div>
+    </div>
+
+
+
+
+    <div class="column Street">
+      <div class="content">
+        <img src="/w3images/people1.jpg" alt="Street" style="width:100%">
+        <h4>Girl</h4>
+        <p>STREET..</p>
+      </div>
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- FOOTER -->
+  <style>
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #7A9D96;
+      color: black;
+      text-align: center;
+  }
+  </style>
+
+  <div class="footer">
+    <p> © 2018 Angela Vitale Photography</p>
+  </div>
+
+
+
+
+</body>
+<script src="apv.js"></script>
+</html>
